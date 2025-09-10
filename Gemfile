@@ -61,3 +61,5 @@ gem 'cancancan'
 gem 'draper'
 gem 'activeadmin'
 gem 'sass-rails'
+
+gem 'arctic_admin'
