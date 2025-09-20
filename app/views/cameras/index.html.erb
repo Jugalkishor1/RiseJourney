@@ -1,0 +1,10 @@
+<!-- app/views/cameras/index.html.erb -->
+<h1>All Cameras</h1>
+<ul>
+  <% @cameras.each do |camera| %>
+    <li>
+      <%= camera.name %> - <%= camera.location %>
+      <%= link_to "View Live", camera_path(camera) %>
+    </li>
+  <% end %>
+</ul>

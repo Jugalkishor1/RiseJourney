@@ -9,4 +9,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  resources :cameras, only: [:index, :show]
+  root "cameras#index"
 end
