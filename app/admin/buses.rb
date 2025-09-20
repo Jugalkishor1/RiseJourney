@@ -1,4 +1,5 @@
 ActiveAdmin.register Bus do
+  menu priority: 5
   permit_params :school_id, :registration_no, :capacity, :status
 
   index do

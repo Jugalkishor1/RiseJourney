@@ -1,4 +1,5 @@
 ActiveAdmin.register District do
+  menu priority: 3
   permit_params :name, :address, :state, :pincode, :contact_person, :contact_number
 
   index do

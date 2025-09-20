@@ -1,4 +1,5 @@
 ActiveAdmin.register School do
+  menu priority: 4
   permit_params :district_id, :name, :address, :registration_no, :contact_person, :contact_number
 
   filter :name

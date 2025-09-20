@@ -1,4 +1,5 @@
 ActiveAdmin.register Camera do
+  menu priority: 6
   permit_params :bus_id, :name, :location, :stream_url
 
   index do
